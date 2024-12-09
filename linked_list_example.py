@@ -2,6 +2,22 @@
 Interactive Linked List Learning CLI
 ----------------------------------
 A hands-on way to learn about linked lists in Python
+
+Linked List Visualization:
+-----------------------
+HEAD
+ ↓
+┌────┐    ┌────┐    ┌────┐    ┌────┐
+│ 1  │ →  │ 2  │ →  │ 3  │ →  │ 4  │ → None
+└────┘    └────┘    └────┘    └────┘
+  ↑         ↑         ↑         ↑
+Node     Next      Next      Tail
+
+Operations:
+- append(data)  : Add node at end
+- prepend(data) : Add node at start
+- delete(data)  : Remove node with data
+- search(data)  : Find node with data
 """
 
 class Node:

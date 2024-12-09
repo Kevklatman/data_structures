@@ -2,6 +2,23 @@
 Interactive Stack Learning CLI
 ----------------------------
 A hands-on way to learn about stacks in Python
+
+Stack Visualization:
+------------------
+    │ TOP │    ← Last In, First Out (LIFO)
+    ├─────┤
+    │  3  │    ← Push/Pop happens here
+    ├─────┤
+    │  2  │
+    ├─────┤
+    │  1  │    ← Bottom of stack
+    └─────┘
+
+Operations:
+- push(item) : Add item to top
+- pop()      : Remove & return top item
+- peek()     : View top item
+- is_empty() : Check if stack is empty
 """
 
 class Stack:

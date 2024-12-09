@@ -1,7 +1,29 @@
 """
 Interactive Graph Learning CLI
----------------------------
+----------------------------
 A hands-on way to learn about graphs in Python
+
+Graph Visualization:
+-----------------
+    A ────── B
+    │ ╲      │
+    │  ╲     │
+    │   ╲    │
+    │    ╲   │
+    │     ╲  │
+    C ────── D
+
+Representations:
+1. Adjacency List:  A → [B,C,D]
+                    B → [A,D]
+                    C → [A,D]
+                    D → [B,C,A]
+
+Operations:
+- add_vertex(v)     : Add new vertex
+- add_edge(v1, v2)  : Connect vertices
+- remove_vertex(v)  : Remove vertex
+- remove_edge(v1,v2): Remove connection
 """
 
 from collections import defaultdict, deque

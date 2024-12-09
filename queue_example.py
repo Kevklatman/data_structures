@@ -2,6 +2,23 @@
 Interactive Queue Learning CLI
 ----------------------------
 A hands-on way to learn about queues in Python
+
+Queue Visualization:
+-----------------
+ Front                              Back
+  ↓                                  ↓
+┌────┐   ┌────┐   ┌────┐   ┌────┐
+│ 1  │ → │ 2  │ → │ 3  │ → │ 4  │
+└────┘   └────┘   └────┘   └────┘
+ ↑                                  ↑
+Dequeue                          Enqueue
+(First Out)                    (Last In)
+
+Operations:
+- enqueue(item) : Add item to back
+- dequeue()     : Remove & return front item
+- front()        : View front item
+- is_empty()    : Check if queue is empty
 """
 
 from collections import deque

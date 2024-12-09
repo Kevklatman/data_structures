@@ -2,6 +2,24 @@
 Interactive Binary Tree Learning CLI
 ---------------------------------
 A hands-on way to learn about binary trees in Python
+
+Binary Tree Visualization:
+-----------------------
+       ┌──── 7 ────┐
+       │           │
+   ┌── 3 ──┐   ┌──9──┐
+   │       │   │     │
+   1       5   8    10
+   
+Traversals:
+- Inorder   (Left→Root→Right): 1,3,5,7,8,9,10
+- Preorder  (Root→Left→Right): 7,3,1,5,9,8,10
+- Postorder (Left→Right→Root): 1,5,3,8,10,9,7
+
+Operations:
+- insert(data) : Add new node
+- search(data) : Find node with data
+- delete(data) : Remove node with data
 """
 
 class Node:
